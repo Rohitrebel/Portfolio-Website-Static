@@ -1,0 +1,33 @@
+from flask import Flask, render_template, request
+
+
+app = Flask(__name__)
+
+
+@app.route('/projects')
+def projects():
+  return render_template('projects.html')
+
+@app.route('/resume')
+def resume():
+  return render_template('resume.html')
+
+@app.route('/contact')
+def contact():
+  return render_template('contact.html')
+
+@app.route('/', methods=['GET', 'POST'])
+def home():
+  if request.method == "POST":
+    name = request.form.get("name")
+    email = request.form.get("email")
+    phone = request.form.get("phone")
+    message = request.form.get("message")
+
+    return render_template('response.html', name=name, email=email, phone=phone, message=message)
+  return render_template('index.html')
+
+
+
+if (__name__ == "__main__"):
+  app.run(debug=True)

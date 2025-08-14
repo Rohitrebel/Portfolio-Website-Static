@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+
+    <title>Resume/CV</title>
+  </head>
+  <body>
+    <div class="bg-container-resume">
+      <iframe
+        src="{{ url_for('static', filename='Resume 2025 Updated.pdf')}}#toolbar=0&navpanes=0"
+        type="application/pdf"
+        class="resume-css"
+      ></iframe>
+    </div>
+  </body>
+</html>
