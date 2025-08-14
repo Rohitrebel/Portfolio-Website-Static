@@ -132,11 +132,13 @@ requirements.txt with all dependencies
 
 - Understanding Jinja2 templating
 
-- Deploying a Flask app to a cloud hosting platform
+- Deploying a Flask app to a cloud hosting platform like Render
 
 ## Output
 
 ![alt text](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1755192423/Screenshot_3280_wpaduh.png)
+![alt text](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1755193141/Screenshot_3281_ilqeok.png)
+![alt text](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1755193141/Screenshot_3282_mgbds4.png)
 
 ---
 
