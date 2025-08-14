@@ -51,6 +51,22 @@ Portfolio-Website-Static/
 
 ```
 
+## Routes
+
+| Route       | Method(s) | Description                                         | Template Rendered              |
+| ----------- | --------- | --------------------------------------------------- | ------------------------------ |
+| `/`         | GET, POST | Home page. Handles contact form submission on POST. | `index.html` / `response.html` |
+| `/projects` | GET       | Displays the projects page.                         | `projects.html`                |
+| `/resume`   | GET       | Displays the resume page.                           | `resume.html`                  |
+| `/contact`  | GET       | Displays the contact page.                          | `contact.html`                 |
+
+### POST Request on `/`
+
+When the contact form is submitted on the homepage:
+
+- **Fields captured:** `name`, `email`, `phone`, `message`
+- **Response:** Renders `response.html` with submitted data.
+
 ---
 
 ## Installation & Setup (Locally)
@@ -118,7 +134,8 @@ requirements.txt with all dependencies
 
 - Deploying a Flask app to a cloud hosting platform
 
-**Output**
+## Output
+
 ![alt text](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1755192423/Screenshot_3280_wpaduh.png)
 
 ---
