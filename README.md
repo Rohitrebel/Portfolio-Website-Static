@@ -37,7 +37,7 @@ Portfolio-Website-Static/
 │
 ├── app.py                  # Main Flask application
 ├── requirements.txt        # Project dependencies
-├── Procfile                # Deployment instructions (for Render/Heroku)
+├── Procfile                # Deployment instructions (for Render)
 │
 ├── templates/              # HTML templates
 │   ├── index.html
